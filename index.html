@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Prasho</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<!-- ##### Header Area Start ##### -->
+    <header class="header_area">
+        <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
+            <!-- Classy Menu -->
+            <nav class="classy-navbar" id="essenceNav">
+                <!-- Logo -->
+                <div class="myCarouselScreen" ><a class="nav-brand" class="myCarouselScreen" href="index.html"><img src="img/logo.png" style="height: 80px;" alt=""></a></div>
+                <div class="myCarouselDevice" ><a class="nav-brand" class="myCarouselDevice" href="index.html"><img src="img/logo.png" style="height: 35px;" alt=""></a></div>
+                <!-- Navbar Toggler -->
+                <div class="classy-navbar-toggler">
+                    <span class="navbarToggler"><span></span><span></span><span></span></span>
+                </div>
+                <!-- Menu -->
+                <div class="classy-menu">
+                    <!-- close btn -->
+                    <div class="classycloseIcon">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                    </div>
+                    <!-- Nav Start -->
+                    <div class="classynav">
+                        <ul>
+                        	<!--<li style="font-size: 30px;">Prasho Engineers</li>-->
+                            <li><a href="index.html" style="color:#00043C;"><h4>Home</h4></a>
+                            </li>
+                            <li><a href="about_us.html" style="color:#00043C;"><h4>About Us</h4></a>
+                            </li>
+                            <li><a href="regular-page-multiple.html" style="color:#00043C;"><h4>Our Services</h4></a>
+                            </li>
+                            <li><a href="contact.html" style="color:#00043C;"><h4>Contact Us</h4></a></li>
+                            <li><a href="contact.html" style="color:#00043C;"><span id="Quote" class="Quote" onclick="showQuote()"><h4>Get A Quote</h4></span></a></li>
+                        </ul>
+
+                    </div>
+                    <!-- Nav End -->
+                </div>
+            </nav>
+       
+
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <div class="col-12 col-md-12">
+    <div class="row">
+    <div class="myCarouselScreen" style="background-color: #fcfad3; width: 100%; height: 80px; text-align: center; font-size: 30px; color: #00043C; margin-top: 6%; margin-bottom: 0.8%; padding-bottom: 20px; padding-top: 20px">
+        <h3>Committed to Quality, Committed to Customer Satisfaction!</h3>
+    </div>
+    <div class="myCarouselDevice" style="background-color: #fcfad3; width: 100%; height: 80px; text-align: center; font-size: 30px; color: #00043C; margin-top: 6%; margin-bottom: 0.8%; padding-bottom: 20px; padding-top: 20px">
+        <h3>Committed to Quality, Committed to Customer Satisfaction!</h3>
+    </div>
+    
+    <div class="row">
+    <div id="myCarouselScreen" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#myCarouselScreen" data-slide-to="0" class="active"></li>
+	    <li data-target="#myCarouselScreen" data-slide-to="1"></li>
+	    <li data-target="#myCarouselScreen" data-slide-to="2"></li>
+        <li data-target="#myCarouselScreen" data-slide-to="3"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+	    <div class="item active">
+	      <img src="img/cover_photos/banner1.png" alt="Factory 1" >
+	    </div>
+
+	    <div class="item">
+	      <img src="img/cover_photos/banner2.png" alt="Factory 2">
+	    </div>
+
+	    <div class="item">
+	      <img src="img/cover_photos/banner3.png" alt="Factory 3">
+	    </div>
+
+        <div class="item">
+	      <img src="img/cover_photos/banner4.png" alt="Factory 4">
+	    </div>
+
+	  </div>
+
+	  <!-- Left and right controls -->
+	  <a class="left carousel-control" href="#myCarouselScreen" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarouselScreen" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+	<div id="myCarouselDevice" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#myCarouselDevice" data-slide-to="0" class="active"></li>
+	    <li data-target="#myCarouselDevice" data-slide-to="1"></li>
+	    <li data-target="#myCarouselDevice" data-slide-to="2"></li>
+        <li data-target="#myCarouselDevice" data-slide-to="3"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+	    <div class="item active">
+	      <img src="img/cover_photos/banner1.png" alt="Factory 1" >
+	    </div>
+
+	    <div class="item">
+	      <img src="img/cover_photos/banner2.png" alt="Factory 2">
+	    </div>
+
+	    <div class="item">
+	      <img src="img/cover_photos/banner3.png" alt="Factory 3">
+	    </div>
+
+        <div class="item">
+	      <img src="img/cover_photos/banner4.png" alt="Factory 4">
+	    </div>
+	  </div>
+
+	  <!-- Left and right controls -->
+	  <a class="left carousel-control" href="#myCarouselDevice" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarouselDevice" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+</div>
+	
+</div>
+    <!-- ##### Top Category Area Start ##### -->
+    <div class="top_category_area section-padding-80 clearfix">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Single Category -->
+                <div class="col-12 col-sm-6 col-md-3">
+                	<div class="row justify-content-center">
+                	<div class="col-12 col-sm-5 col-md-3">
+                	</div>
+                    <div class="col-12 col-sm-8 col-md-6">
+                        <div class="category-content" style="padding-top: 20%; padding-bottom: 10%;">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSItMjEgMCA1MTIgNTEyLjAwNDEzIiB3aWR0aD0iNTEycHQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTM5Mi41MzUxNTYgMjkwLjEzNjcxOWMwIDQuNzE0ODQzLTMuODIwMzEyIDguNTM1MTU2LTguNTMxMjUgOC41MzUxNTYtNC43MTQ4NDQgMC04LjUzNTE1Ni0zLjgyMDMxMy04LjUzNTE1Ni04LjUzNTE1NiAwLTQuNzEwOTM4IDMuODIwMzEyLTguNTMxMjUgOC41MzUxNTYtOC41MzEyNSA0LjcxMDkzOCAwIDguNTMxMjUgMy44MjAzMTIgOC41MzEyNSA4LjUzMTI1em0wIDAiLz48cGF0aCBkPSJtNDY5LjMzNTkzOCAzNDEuMzM1OTM4YzAgNC43MTQ4NDMtMy44MjAzMTMgOC41MzUxNTYtOC41MzUxNTcgOC41MzUxNTYtNC43MTA5MzcgMC04LjUzMTI1LTMuODIwMzEzLTguNTMxMjUtOC41MzUxNTYgMC00LjcxMDkzOCAzLjgyMDMxMy04LjUzMTI1IDguNTMxMjUtOC41MzEyNSA0LjcxNDg0NCAwIDguNTM1MTU3IDMuODIwMzEyIDguNTM1MTU3IDguNTMxMjV6bTAgMCIvPjxwYXRoIGQ9Im00NjkuMzM1OTM4IDMwNy4yMDMxMjVjMCA0LjcxNDg0NC0zLjgyMDMxMyA4LjUzNTE1Ni04LjUzNTE1NyA4LjUzNTE1Ni00LjcxMDkzNyAwLTguNTMxMjUtMy44MjAzMTItOC41MzEyNS04LjUzNTE1NiAwLTQuNzEwOTM3IDMuODIwMzEzLTguNTMxMjUgOC41MzEyNS04LjUzMTI1IDQuNzE0ODQ0IDAgOC41MzUxNTcgMy44MjAzMTMgOC41MzUxNTcgOC41MzEyNXptMCAwIi8+PHBhdGggZD0ibTQ2OS4zMzU5MzggMjczLjA3MDMxMmMwIDQuNzE0ODQ0LTMuODIwMzEzIDguNTM1MTU3LTguNTM1MTU3IDguNTM1MTU3LTQuNzEwOTM3IDAtOC41MzEyNS0zLjgyMDMxMy04LjUzMTI1LTguNTM1MTU3IDAtNC43MTA5MzcgMy44MjAzMTMtOC41MzEyNSA4LjUzMTI1LTguNTMxMjUgNC43MTQ4NDQgMCA4LjUzNTE1NyAzLjgyMDMxMyA4LjUzNTE1NyA4LjUzMTI1em0wIDAiLz48cGF0aCBkPSJtNDY5LjMzNTkzOCAyMzguOTM3NWMwIDQuNzEwOTM4LTMuODIwMzEzIDguNTM1MTU2LTguNTM1MTU3IDguNTM1MTU2LTQuNzEwOTM3IDAtOC41MzEyNS0zLjgyNDIxOC04LjUzMTI1LTguNTM1MTU2czMuODIwMzEzLTguNTM1MTU2IDguNTMxMjUtOC41MzUxNTZjNC43MTQ4NDQgMCA4LjUzNTE1NyAzLjgyNDIxOCA4LjUzNTE1NyA4LjUzNTE1NnptMCAwIi8+PHBhdGggZD0ibTQ0My43MzQzNzUgMzI0LjI2OTUzMWMwIDQuNzE0ODQ0LTMuODIwMzEzIDguNTM1MTU3LTguNTMxMjUgOC41MzUxNTctNC43MTQ4NDQgMC04LjUzNTE1Ni0zLjgyMDMxMy04LjUzNTE1Ni04LjUzNTE1NyAwLTQuNzEwOTM3IDMuODIwMzEyLTguNTMxMjUgOC41MzUxNTYtOC41MzEyNSA0LjcxMDkzNyAwIDguNTMxMjUgMy44MjAzMTMgOC41MzEyNSA4LjUzMTI1em0wIDAiLz48cGF0aCBkPSJtNDQzLjczNDM3NSAyOTAuMTM2NzE5YzAgNC43MTQ4NDMtMy44MjAzMTMgOC41MzUxNTYtOC41MzEyNSA4LjUzNTE1Ni00LjcxNDg0NCAwLTguNTM1MTU2LTMuODIwMzEzLTguNTM1MTU2LTguNTM1MTU2IDAtNC43MTA5MzggMy44MjAzMTItOC41MzEyNSA4LjUzNTE1Ni04LjUzMTI1IDQuNzEwOTM3IDAgOC41MzEyNSAzLjgyMDMxMiA4LjUzMTI1IDguNTMxMjV6bTAgMCIvPjxwYXRoIGQ9Im00NDMuNzM0Mzc1IDI1Ni4wMDM5MDZjMCA0LjcxNDg0NC0zLjgyMDMxMyA4LjUzNTE1Ni04LjUzMTI1IDguNTM1MTU2LTQuNzE0ODQ0IDAtOC41MzUxNTYtMy44MjAzMTItOC41MzUxNTYtOC41MzUxNTYgMC00LjcxMDkzNyAzLjgyMDMxMi04LjUzMTI1IDguNTM1MTU2LTguNTMxMjUgNC43MTA5MzcgMCA4LjUzMTI1IDMuODIwMzEzIDguNTMxMjUgOC41MzEyNXptMCAwIi8+PHBhdGggZD0ibTQxOC4xMzY3MTkgMzA3LjIwMzEyNWMwIDQuNzE0ODQ0LTMuODIwMzEzIDguNTM1MTU2LTguNTM1MTU3IDguNTM1MTU2LTQuNzEwOTM3IDAtOC41MzEyNS0zLjgyMDMxMi04LjUzMTI1LTguNTM1MTU2IDAtNC43MTA5MzcgMy44MjAzMTMtOC41MzEyNSA4LjUzMTI1LTguNTMxMjUgNC43MTQ4NDQgMCA4LjUzNTE1NyAzLjgyMDMxMyA4LjUzNTE1NyA4LjUzMTI1em0wIDAiLz48cGF0aCBkPSJtNDE4LjEzNjcxOSAyNzMuMDcwMzEyYzAgNC43MTQ4NDQtMy44MjAzMTMgOC41MzUxNTctOC41MzUxNTcgOC41MzUxNTctNC43MTA5MzcgMC04LjUzMTI1LTMuODIwMzEzLTguNTMxMjUtOC41MzUxNTcgMC00LjcxMDkzNyAzLjgyMDMxMy04LjUzMTI1IDguNTMxMjUtOC41MzEyNSA0LjcxNDg0NCAwIDguNTM1MTU3IDMuODIwMzEzIDguNTM1MTU3IDguNTMxMjV6bTAgMCIvPjxwYXRoIGQ9Im04LjA5NzY1NiAzMDQuNjQ0NTMxYzUuMDI3MzQ0IDMuMTI4OTA3IDExLjMyMDMxMyAzLjQxMDE1NyAxNi42MDU0NjkuNzQ2MDk0LjQ0MTQwNi0uMjI2NTYzLjg2NzE4Ny0uNDg0Mzc1IDEuMjY1NjI1LS43ODEyNWwxOS41MTU2MjUtMTQuNDcyNjU2aDQ4LjM4MjgxM3Y5LjQyOTY4N2MtLjM0NzY1NyA0LjU2NjQwNi00LjMyODEyNiA3Ljk4NDM3NS04Ljg5NDUzMiA3LjYzNjcxOS0xMy45NzI2NTYuMjU3ODEzLTI1LjE3OTY4NyAxMS42MjUtMjUuMjM4MjgxIDI1LjYwMTU2M3YxNy4wNjY0MDZjLjAxNTYyNSAxNC4xMzI4MTIgMTEuNDY4NzUgMjUuNTg1OTM3IDI1LjYwMTU2MyAyNS42MDE1NjJoMS44ODY3MThsLTExLjI2MTcxOCA2OC4yNjU2MjVoLTQuMTYwMTU3Yy00LjUyNzM0My0uMDExNzE5LTguODcxMDkzIDEuNzg5MDYzLTEyLjA2NjQwNiA1bC0xMi4wNjY0MDYgMTIuMDY2NDA3Yy0zLjIxMDkzOCAzLjE5MTQwNi01LjAxMTcxOSA3LjUzOTA2Mi01IDEyLjA2NjQwNnYyMi4wNjY0MDZjLjAxMTcxOSA5LjQyMTg3NSA3LjY0NDUzMSAxNy4wNTg1OTQgMTcuMDY2NDA2IDE3LjA2NjQwNmgxNTMuNjAxNTYzYzkuNDIxODc0LS4wMDc4MTIgMTcuMDU4NTkzLTcuNjQ0NTMxIDE3LjA2NjQwNi0xNy4wNjY0MDZ2LTIwLjMyNDIxOWMuMDIzNDM3LTYuNDcyNjU2LTMuNjM2NzE5LTEyLjM5MDYyNS05LjQzMzU5NC0xNS4yNjU2MjVsLTI3LjYxNzE4OC0xMy44MDg1OTRjLTEuOTYwOTM3LS45NDE0MDYtNC4wODIwMzEtMS40OTYwOTMtNi4yNS0xLjY0MDYyNGwxMS41MTk1MzItNjkuODEyNWM4LjgwMDc4MS0zLjE0MDYyNiAxNC42ODM1OTQtMTEuNDYwOTM4IDE0LjcxNDg0NC0yMC44MDA3ODJ2LTYuODI4MTI1Yy4wMzkwNjItMi44MTI1IDIuMzA4NTkzLTUuMDgyMDMxIDUuMTIxMDkzLTUuMTIxMDkzaDExLjk0NTMxM3Y1OS43MzQzNzRjMCAyLjI2MTcxOS44OTg0MzcgNC40MzM1OTQgMi41IDYuMDM1MTU3bDQyLjY2Nzk2OCA0Mi42NjQwNjJjMy4zNDc2NTcgMy4yMzQzNzUgOC42Njc5NjkgMy4xODc1IDExLjk2MDkzOC0uMTAxNTYyIDMuMjkyOTY5LTMuMjkyOTY5IDMuMzM1OTM4LTguNjE3MTg4LjEwNTQ2OS0xMS45NjQ4NDRsLTQwLjE2Nzk2OS00MC4xNjQwNjN2LTU2LjIwMzEyNGg0Mi42Njc5NjljNi42Nzk2ODctLjAxMTcxOSAxMi43MzQzNzUtMy45MjU3ODIgMTUuNDk2MDkzLTEwLjAwNzgxM2wyMi43NzczNDQtNS42OTUzMTNjNy42MDE1NjMtMS44OTA2MjQgMTIuOTMzNTk0LTguNzIyNjU2IDEyLjkyNTc4Mi0xNi41NTg1OTN2LTEwLjQwMjM0NGgxNy4wNjY0MDZjNC43MTA5MzcgMCA4LjUzMTI1LTMuODIwMzEzIDguNTMxMjUtOC41MzUxNTYgMC00LjcxMDkzOC0zLjgyMDMxMy04LjUzMTI1LTguNTMxMjUtOC41MzEyNWgtMTcuMDY2NDA2di0xMC40MDYyNWMuMDA3ODEyLTcuODMyMDMxLTUuMzI0MjE5LTE0LjY2MDE1Ny0xMi45MjU3ODItMTYuNTU0Njg4bC0yMi43NzczNDQtNS42OTE0MDZjLTIuNzU3ODEyLTYuMDg1OTM3LTguODE2NDA2LTEwLTE1LjQ5NjA5My0xMC4wMTU2MjVoLTE4LjI4MTI1Yy0zLjg2NzE4OC0xNS4wMzEyNS0xNy4zOTg0MzgtMjUuNTU0Njg4LTMyLjkyMTg3NS0yNS42MDE1NjItNi4xMzI4MTMuMDMxMjUtMTIuMTQwNjI1IDEuNzM0Mzc0LTE3LjM4MjgxMyA0LjkyMTg3NGwtMTQuMDMxMjUtMzMuODQ3NjU2YzE2LjgwODU5NC0xMS4zNDc2NTYgMjMuMzA0Njg4LTMyLjk1NzAzMSAxNS41NDI5NjktNTEuNjk1MzEybC0zNi41MTE3MTktODguMTUyMzQ0YzkuMjU3ODEzLTguMzI4MTI1IDExLjE3MTg3NS0yMi4xMTMyODEgNC41MjM0MzgtMzIuNjQ0NTMxLTYuNjQ0NTMxLTEwLjUzMTI1LTE5LjkxNDA2My0xNC43MzgyODEtMzEuNDE0MDYzLTkuOTYwOTM4bC0xMTguMjUgNDguOTg0Mzc1Yy0xMS4yODkwNjIgNC42NzU3ODItMTcuNjk1MzEyIDE2LjY3OTY4OC0xNS4zMDQ2ODcgMjguNjYwMTU2IDIuMzkwNjI1IDExLjk4MDQ2OSAxMi45MTc5NjkgMjAuNjA1NDY5IDI1LjEzMjgxMiAyMC41ODk4NDQuNDI5Njg4IDAgLjg1NTQ2OS0uMTAxNTYyIDEuMjgxMjUtLjEyNWwzNi41MTU2MjUgODguMTY3OTY5YzcuNzQyMTg4IDE4LjczMDQ2OSAyNy42MDU0NjkgMjkuNDE0MDYzIDQ3LjUgMjUuNTUwNzgxbDEwLjQzMzU5NCAyNS4xNTIzNDRoLTEwMS40ODQzNzVsLTE5LjUxNTYyNS0xNC40NzY1NjJjLS4zOTg0MzgtLjI5Mjk2OS0uODI0MjE5LS41NTQ2ODgtMS4yNjU2MjUtLjc3NzM0NC01LjI5Mjk2OS0yLjY0NDUzMi0xMS41NzQyMTktMi4zNjMyODItMTYuNjA5Mzc1Ljc0NjA5NC01LjAzMTI1IDMuMTA5Mzc0LTguMDkzNzUgOC42MDU0NjgtOC4wODk4NDM3NSAxNC41MTk1MzF2NTEuMTc1NzgxYy0uMDIzNDM3NDUgNS45MjE4NzUgMy4wNDY4NzQ3NSAxMS40MjU3ODEgOC4wOTM3NDk3NSAxNC41MTk1MzF6bTk2LjQyNTc4MiA3MC44MjgxMjVoNzYuNTcwMzEybC0xMS4yNjU2MjUgNjguMjY1NjI1aC03Ni41NjY0MDZ6bTEwOC44MTI1IDk5LjE0MDYyNXYyMC4zMjQyMTloLTE1My42MDE1NjN2LTIyLjA2NjQwNmwxMi4wNjY0MDYtMTIuMDY2NDA2aDExMy45MjE4NzV6bTExMC45MzM1OTMtMTY1LjUzOTA2Mi0xNy4wNjY0MDYgNC4yNjU2MjV2LTQ2LjQwNjI1bDE3LjA2NjQwNiA0LjI2NTYyNXptLTM0LjEzMjgxMiAxNS4xOTUzMTJoLTQyLjY2Nzk2OXYtNDMuODc4OTA2YzExLjk0NTMxMi0zLjExMzI4MSAyMS4yNzM0MzgtMTIuNDQxNDA2IDI0LjM4NjcxOS0yNC4zODY3MTloMTguMjgxMjV6bS01MS4yMDMxMjUtOTMuODY3MTg3YzkuNDI1NzgxIDAgMTcuMDcwMzEyIDcuNjQ0NTMxIDE3LjA3MDMxMiAxNy4wNzAzMTIgMCA5LjQyMTg3NS03LjY0NDUzMSAxNy4wNjY0MDYtMTcuMDcwMzEyIDE3LjA2NjQwNi05LjQyMTg3NSAwLTE3LjA2NjQwNi03LjY0NDUzMS0xNy4wNjY0MDYtMTcuMDY2NDA2LjAxMTcxOC05LjQyMTg3NSA3LjY0ODQzNy0xNy4wNTg1OTQgMTcuMDY2NDA2LTE3LjA3MDMxMnptLTE5NS42MDkzNzUtMTUyLjU0Mjk2OWMtLjg2NzE4OC0yLjA5Mzc1LS44NjcxODgtNC40NDE0MDYgMC02LjUzNTE1Ni44NjcxODctMi4wODk4NDQgMi41MjczNDMtMy43NSA0LjYyMTA5My00LjYxNzE4OGwxMTguMjUzOTA3LTQ4Ljk4MDQ2OWM0LjMzOTg0My0xLjc1NzgxMiA5LjI4OTA2Mi4zMTY0MDcgMTEuMDgyMDMxIDQuNjQ0NTMycy0uMjM4MjgxIDkuMjg5MDYyLTQuNTQ2ODc1IDExLjEyMTA5NGgtLjAwNzgxM2wtMTE4LjI1MzkwNiA0OC45ODQzNzRjLTQuMzU1NDY4IDEuODAwNzgyLTkuMzQzNzUtLjI2NTYyNC0xMS4xNDg0MzctNC42MTcxODd6bTYxLjQ4MDQ2OSAxMDMuODM5ODQ0LTM1LjkxNDA2My04Ni43MTg3NSA1MS4yNDIxODctMjEuMjI2NTYzIDUxLjI0NjA5NC0yMS4yMzA0NjggMzUuOTIxODc1IDg2LjcyNjU2MmM1LjQxMDE1NyAxMy4wNDY4NzUtLjc3NzM0MyAyOC4wMTE3MTktMTMuODI0MjE5IDMzLjQyOTY4OGwtLjA0Mjk2OC4wMDc4MTItNTUuMjEwOTM4IDIyLjg2NzE4OC0uMDMxMjUuMDIzNDM3Yy0xMy4wNTA3ODEgNS4zNDc2NTYtMjcuOTcyNjU2LS44NTE1NjMtMzMuMzg2NzE4LTEzLjg3ODkwNnptNDcuODM5ODQzIDI2LjM2NzE4NyAzOS40Mzc1LTE2LjMzNTkzNyAxNi42NTIzNDQgNDAuMTc1NzgxYy0xLjE2Nzk2OSAyLjIzNDM3NS0yLjA3ODEyNSA0LjU5Mzc1LTIuNzE4NzUgNy4wMzEyNWgtNDAuNTY2NDA2em0tMjQuNjQwNjI1IDQ3LjkzNzVoNzguMDExNzE5YzMuMTEzMjgxIDExLjk0NTMxMyAxMi40NDE0MDYgMjEuMjczNDM4IDI0LjM4NjcxOSAyNC4zODY3MTl2NDMuODc4OTA2aC0xMS45NDUzMTNjLTEyLjI1LjAxNTYyNS0yMi4xNzE4NzUgOS45NDE0MDctMjIuMTg3NSAyMi4xODc1djYuODI4MTI1Yy0uMDM5MDYyIDIuODEyNS0yLjMwODU5MyA1LjA4MjAzMi01LjEyMTA5MyA1LjExNzE4OGgtMTA1LjgxMjVjLTQuNzEwOTM4LS4wMDM5MDYtOC41MjczNDQtMy44MjAzMTMtOC41MzUxNTctOC41MzEyNXYtMTcuMDY2NDA2Yy4wMTk1MzEtNC42NTYyNSAzLjc1MzkwNy04LjQ0NTMxMyA4LjQxMDE1Ny04LjUzNTE1NyA2LjY4NzUuMTM2NzE5IDEzLjE1NjI1LTIuMzg2NzE5IDE3Ljk4MDQ2OC03LjAxOTUzMSA0LjgyNDIxOS00LjYzNjcxOSA3LjYwOTM3NS0xMC45OTYwOTQgNy43NDIxODgtMTcuNjgzNTk0di00My41NjI1em0tMzQuMTM2NzE4IDB2MTcuMDY2NDA2aC00Mi42NjQwNjN2LTE3LjA2NjQwNnptLTc2Ljc5Njg3Ni0xNi44OTQ1MzEgMTcuMDY2NDA3IDEyLjY1NjI1djI1LjU0Mjk2OWwtMTcuMDY2NDA3IDEyLjY2MDE1NnptMCAwIi8+PHBhdGggZD0ibTEzNi4zNDM3NSAxNjguNjM2NzE5LTI2LjEyNS02My4wNzAzMTNjLTEuODI4MTI1LTQuMzE2NDA2LTYuNzkyOTY5LTYuMzUxNTYyLTExLjEyNS00LjU1ODU5NC00LjMzMjAzMSAxLjc5Njg3Ni02LjQwMjM0NCA2Ljc0NjA5NC00LjY0MDYyNSAxMS4wOTM3NWwyNi4xMjUgNjMuMDcwMzEzYzEuMTUyMzQ0IDIuODM5ODQ0IDMuNzM4MjgxIDQuODQzNzUgNi43NzM0MzcgNS4yNSAzLjAzOTA2My40MDYyNSA2LjA1ODU5NC0uODQzNzUgNy45MTc5NjktMy4yODEyNXMyLjI2OTUzMS01LjY3OTY4NyAxLjA3NDIxOS04LjUwMzkwNnptMCAwIi8+PC9zdmc+" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-3">
+                	</div>
+                	</div>
+                    <div class="row justify-content-center">
+                    	<p style="color: #00043C; font-family: Helvetica; font-size: 25px;">Shot Blasting</p>
+                        <p style="text-align: center; padding-left: 10%; padding-right: 10%; color: #000000CC; font-family: Helvetica; font-size: 16px;"> Prasho Engineers, takes pride in top quality Shot Blasting procedure done by trained experts using state of the art machinery.</p>
+                    <a href="regular-page-multiple.html"><span style="color:#ec292a" id="Shot Blasting" class="Shot Blasting" onclick="showShotBlasting()">Learn More</span></a>
+                    </div>
+                </div>
+                <!-- Single Category -->
+                <div class="col-12 col-sm-6 col-md-3">
+                	<div class="row justify-content-center">
+                	<div class="col-12 col-sm-5 col-md-3">
+                	</div>
+                    <div class="col-12 col-sm-8 col-md-6">
+                        <div class="category-content" style="padding-top: 20%; padding-bottom: 10%;">
+                            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjxnPjxwYXRoIGQ9Ik00NzIsMTA0SDQ1NlY4OGE4LDgsMCwwLDAtOC04SDQzMlY2NGE4LDgsMCwwLDAtOC04SDQwYTgsOCwwLDAsMC04LDhWODBIMTZhOCw4LDAsMCwwLTgsOHY0OGE4LDgsMCwwLDAsOCw4SDMydjE2YTgsOCwwLDAsMCw4LDhINTZ2NTZhMjQuMDA2LDI0LjAwNiwwLDAsMCwzMiwyMi42M1YyNzJhMjQsMjQsMCwwLDAsNDgsMFYyMDYuNjNBMjQuMDA2LDI0LjAwNiwwLDAsMCwxNjgsMTg0VjE2OEg0MjRhOCw4LDAsMCwwLDgtOFYxNDRoMTZhOCw4LDAsMCwwLDgtOFYxMjBoMTZhMTYuMDIxLDE2LjAyMSwwLDAsMSwxNiwxNnY2NGExNi4wMjEsMTYuMDIxLDAsMCwxLTE2LDE2SDI1NmE4LDgsMCwwLDAtOCw4djMyaC04YTgsOCwwLDAsMC04LDh2MTZhOCw4LDAsMCwwLTgsOFY0ODBhMjQuMDMyLDI0LjAzMiwwLDAsMCwyNCwyNGgxNmEyNC4wMzIsMjQuMDMyLDAsMCwwLDI0LTI0VjI4OGE4LDgsMCwwLDAtOC04VjI2NGE4LDgsMCwwLDAtOC04aC04VjIzMkg0NzJhMzIuMDM2LDMyLjAzNiwwLDAsMCwzMi0zMlYxMzZBMzIuMDM2LDMyLjAzNiwwLDAsMCw0NzIsMTA0Wk0zMiwxMjhIMjRWOTZoOFptMzg0LDI0SDE2MGE4LDgsMCwwLDAtOCw4djI0YTgsOCwwLDAsMS0xNiwwLDgsOCwwLDAsMC0xNiwwdjg4YTgsOCwwLDAsMS0xNiwwVjIyNGE4LDgsMCwwLDAtMTYsMCw4LDgsMCwwLDEtMTYsMFYxNjBhOCw4LDAsMCwwLTgtOEg0OFY3Mkg0MTZabTI0LTI0aC04Vjk2aDhaTTI0OCwyNzJoMTZ2OEgyNDhabTI0LDI0VjQ4MGE4LjAxMSw4LjAxMSwwLDAsMS04LDhIMjQ4YTguMDExLDguMDExLDAsMCwxLTgtOFYyOTZaIi8+PHBhdGggZD0iTTk2LDE1MmE4LDgsMCwwLDAtOCw4djQwYTgsOCwwLDAsMCwxNiwwVjE2MEE4LDgsMCwwLDAsOTYsMTUyWiIvPjxwYXRoIGQ9Ik0xMjgsMTQ0YTgsOCwwLDAsMC04LDh2OGE4LDgsMCwwLDAsMTYsMHYtOEE4LDgsMCwwLDAsMTI4LDE0NFoiLz48L2c+PC9zdmc+Cg==" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-3">
+                	</div>
+                	</div>
+                    <div class="row justify-content-center">
+                    	<p style="color: #00043C; font-family: Helvetica; font-size: 25px;">Spray Painting</p>
+                        <p style="text-align: center; padding-left: 10%; padding-right: 10%; color: #000000CC; font-family: Helvetica; font-size: 16px;"> Spray Painting procedure done on different materials is our forte. We provide Epoxy Coating as well as P.U. (Polyurethane) Coating at Prasho Engineers.</p>
+                    <a href="regular-page-multiple.html"><span style="color:#ec292a" id="Spray Painting" class="Spray Painting" onclick="showSprayPainting()">Learn More</span></a>
+                    </div>
+                </div>
+
+                <!-- Single Category -->
+                <div class="col-12 col-sm-6 col-md-3">
+                	<div class="row justify-content-center">
+                	<div class="col-12 col-sm-5 col-md-3">
+                	</div>
+                    <div class="col-12 col-sm-8 col-md-6">
+                        <div class="category-content" style="padding-top: 20%; padding-bottom: 10%;">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIC04IDUxMi4wMDExOCA1MTIiIHdpZHRoPSI1MTJwdCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNTA5LjA4OTg0NCAyOTAuOTY4NzUtNTAuNzEwOTM4LTUwLjk1MzEyNXYtNDcuNzM0Mzc1YzAtLjQzNzUtLjAzOTA2Mi0uODYzMjgxLS4wOTM3NS0xLjI4OTA2MiAxMi42NDg0MzgtMTcuMTk1MzEzIDExLjE5OTIxOS00MS41NzgxMjYtNC4zNDM3NS01Ny4xMjVsLTExOC4yMDcwMzEtMTE4LjIwMzEyNmMtLjAxOTUzMS0uMDE5NTMxLS4wMzkwNjMtLjAzNTE1Ni0uMDU4NTk0LS4wNTQ2ODctMTAuMTIxMDkzLTEwLjA2NjQwNi0yMy41NDY4NzUtMTUuNjA5Mzc1LTM3LjgyODEyNS0xNS42MDkzNzUtMTQuMzMyMDMxIDAtMjcuODA0Njg3IDUuNTgyMDMxLTM3LjkzNzUgMTUuNzE0ODQ0bC0xNDQuNjMyODEyIDE0NC42MzI4MTJjLS4zMDA3ODIuMzAwNzgyLS41NzAzMTMuNjIxMDk0LS44MjQyMTkuOTQ1MzEzLTMxLjE3NTc4MSA1LjA4OTg0My01NS4xMjEwOTQgMzEuOTE3OTY5LTU1LjczODI4MSA2NC4zNjMyODFsLTM0LjIyNjU2MyAxNDcuOTMzNTk0Yy0xNC4xNzk2ODcgNC40NzY1NjItMjQuNDg4MjgxIDE3Ljc0NjA5NC0yNC40ODgyODEgMzMuMzgyODEydjc5YzAgNS4zNTkzNzUgNC4yMTQ4NDQgOS43MTg3NSA5LjUwNzgxMiA5Ljk3NjU2My4xMTcxODguMDE1NjI1LjI2NTYyNi4wMjM0MzcuNDkyMTg4LjAyMzQzN2g0MDVjNS41MjM0MzggMCAxMC00LjQ3NjU2MiAxMC0xMCAwLTUuNTE5NTMxLTQuNDc2NTYyLTEwLTEwLTEwaC0xNjQuNzE0ODQ0di02OWMwLTE1LjU4NTkzNy0xMC4yNDYwOTQtMjguODIwMzEyLTI0LjM1MTU2Mi0zMy4zMzk4NDRsLTMyLjM1NTQ2OS0xMzkuODMyMDMxIDExNy45NjQ4NDQtMTE3Ljk2NDg0MyA3NS45OTYwOTMgNzUuOTk2MDkzYy0uMDAzOTA2LjE1MjM0NC0uMDE5NTMxLjMwMDc4MS0uMDE5NTMxLjQ0OTIxOXY0Ny43MzQzNzVsLTUwLjcxMDkzNyA1MC45NTMxMjVjLTMuMTA5Mzc1IDMuMTI1LTMuODA4NTk0IDcuOTE3OTY5LTEuNzE0ODQ0IDExLjc5Njg3NWwyNC43Njk1MzEgNDUuOTc2NTYzYzEuODA4NTk0IDMuMzU1NDY4IDUuMjUzOTA3IDUuMjU3ODEyIDguODEyNSA1LjI1NzgxMiAxLjYwMTU2MyAwIDMuMjI2NTYzLS4zODI4MTIgNC43MzQzNzUtMS4xOTUzMTIgNC44NjMyODItMi42MjEwOTQgNi42Nzk2ODgtOC42ODc1IDQuMDYyNS0xMy41NDY4NzZsLTIxLjI1LTM5LjQ0MTQwNiA0NS41NTA3ODItNDUuNzczNDM3aDQyLjM1MTU2Mmw0NS41NTQ2ODggNDUuNzczNDM3LTIxLjI1IDM5LjQ0MTQwNmMtMi42MjEwOTQgNC44NTkzNzYtLjgwNDY4OCAxMC45MjU3ODIgNC4wNTg1OTMgMTMuNTQ2ODc2IDEuNTA3ODEzLjgxMjUgMy4xMzI4MTMgMS4xOTUzMTIgNC43MzQzNzUgMS4xOTUzMTIgMy41NTg1OTQgMCA3LjAwNzgxMy0xLjkwMjM0NCA4LjgxMjUtNS4yNTc4MTJsMjQuNzczNDM4LTQ1Ljk3NjU2M2MyLjA4NTkzNy0zLjg3ODkwNiAxLjM4NjcxOC04LjY3MTg3NS0xLjcxODc1LTExLjc5Njg3NXptLTEwMS41NzAzMTMtODQuNzg1MTU2YzQuODM5ODQ0IDEuNzk2ODc1IDEwLjAxMTcxOSAyLjc0NjA5NCAxNS4zMjgxMjUgMi43NDYwOTQgNS4zOTA2MjUgMCAxMC42MzI4MTMtLjk3NjU2MyAxNS41MzEyNS0yLjgyMDMxM3YyNy45MzM1OTRoLTMwLjg1OTM3NXptLTI2Ni4wNDI5NjktNDMuNzUgMTAzLjMyNDIxOS0xMDMuMzI0MjE5YzEuMjM0Mzc1IDExLjc2NTYyNSA2LjM0Mzc1IDIzLjIwMzEyNSAxNS4zMzk4NDQgMzIuMTk5MjE5IDguNzgxMjUgOC43ODEyNSAyMC4wNzgxMjUgMTQuMTI4OTA2IDMyLjI2NTYyNSAxNS4zODI4MTJsLTEwMi45Njg3NSAxMDIuOTY0ODQ0Yy02LjIzNDM3NS0yMy4xNDg0MzgtMjQuNjY3OTY5LTQxLjM0Mzc1LTQ3Ljk2MDkzOC00Ny4yMjI2NTZ6bTE4MC4xNjc5NjktMTMyLjU3NDIxOWM2LjM1NTQ2OSA2LjM1NTQ2OSA5Ljg1OTM3NSAxNC44MDQ2ODcgOS44NTkzNzUgMjMuNzkyOTY5IDAgOC4zODY3MTgtMy4wNTA3ODEgMTYuMzA0Njg3LTguNjIxMDk0IDIyLjQ5MjE4Ny0uNDI1NzgxLjMwNDY4OC0uODM1OTM3LjY0MDYyNS0xLjIxODc1IDEuMDIzNDM4LTYuMzI4MTI0IDYuMzI4MTI1LTE0Ljc0MjE4NyA5LjgxMjUtMjMuNjkxNDA2IDkuODEyNS04Ljk0NTMxMiAwLTE3LjM1OTM3NS0zLjQ4NDM3NS0yMy42ODc1LTkuODEyNS0xMy4wNjI1LTEzLjA2MjUtMTMuMDYyNS0zNC4zMjAzMTMgMC00Ny4zODI4MTMuMjg5MDYzLS4yODkwNjIuNTUwNzgyLS41OTM3NS43OTY4NzUtLjkxMDE1NiA2LjIyNjU2My01LjczMDQ2OSAxNC4yNTM5MDctOC44NzUgMjIuNzY5NTMxLTguODc1IDguOTg4MjgyIDAgMTcuNDM3NSAzLjUgMjMuNzkyOTY5IDkuODU5Mzc1em0tMTk2LjQ0MTQwNiAxNTAuNTU0Njg3YzI1LjY1MjM0NCAwIDQ2LjUyMzQzNyAyMC44NjcxODggNDYuNTIzNDM3IDQ2LjUyMzQzOCAwIDI1LjY0ODQzOC0yMC44NzEwOTMgNDYuNTE5NTMxLTQ2LjUyMzQzNyA0Ni41MTk1MzFzLTQ2LjUxOTUzMS0yMC44NzEwOTMtNDYuNTE5NTMxLTQ2LjUxOTUzMWMwLTI1LjY1NjI1IDIwLjg2NzE4Ny00Ni41MjM0MzggNDYuNTE5NTMxLTQ2LjUyMzQzOHptMTA1LjA4MjAzMSAyOTUuNTU4NTk0aC0yMTAuMjg1MTU2di02OWMwLTguMjY5NTMxIDYuNzMwNDY5LTE1IDE1LTE1aDE4MC4yODUxNTZjOC4yNzM0MzggMCAxNSA2LjczMDQ2OSAxNSAxNXptLTE4NC44OTQ1MzEtMTA0IDI0Ljg4NjcxOS0xMDcuNTYyNWMxMS45OTIxODcgMTcuNTIzNDM4IDMyLjEzNjcxOCAyOS4wNDY4NzUgNTQuOTI1NzgxIDI5LjA0Njg3NSAyMi43OTI5NjkgMCA0Mi45Mzc1LTExLjUyNzM0MyA1NC45Mjk2ODctMjkuMDUwNzgxbDI0Ljg4NjcxOSAxMDcuNTY2NDA2em0yOTAuMzk0NTMxLTI4MC4zNzg5MDZjOS4wMDc4MTMtOS4wMDc4MTIgMTQuMTI1LTIwLjQ0NTMxMiAxNS4zNzUtMzIuMjE4NzVsODguNjM2NzE5IDg4LjYzMjgxMmM5LjM0NzY1NiA5LjM0NzY1NyA5LjM0NzY1NiAyNC41NTQ2ODggMCAzMy44OTg0MzgtNC41MjczNDQgNC41MjczNDQtMTAuNTQ2ODc1IDcuMDIzNDM4LTE2Ljk0OTIxOSA3LjAyMzQzOHMtMTIuNDIxODc1LTIuNDk2MDk0LTE2Ljk0OTIxOC03LjAyMzQzOGwtODAuMjEwOTM4LTgwLjIxMDkzOHptMCAwIi8+PHBhdGggZD0ibTEyNS4xOTkyMTkgMjM2LjkzMzU5NGMyLjY0MDYyNSAwIDUuMjEwOTM3LTEuMDcwMzEzIDcuMDcwMzEyLTIuOTI5Njg4IDEuODcxMDk0LTEuODU5Mzc1IDIuOTI5Njg4LTQuNDM3NSAyLjkyOTY4OC03LjA3MDMxMiAwLTIuNjI4OTA2LTEuMDU4NTk0LTUuMjEwOTM4LTIuOTI5Njg4LTcuMDcwMzEzLTEuODU5Mzc1LTEuODU5Mzc1LTQuNDI5Njg3LTIuOTI5Njg3LTcuMDcwMzEyLTIuOTI5Njg3LTIuNjI4OTA3IDAtNS4yMTA5MzggMS4wNzAzMTItNy4wNzAzMTMgMi45Mjk2ODdzLTIuOTI5Njg3IDQuNDQxNDA3LTIuOTI5Njg3IDcuMDcwMzEzYzAgMi42MzI4MTIgMS4wNzAzMTIgNS4yMTA5MzcgMi45Mjk2ODcgNy4wNzAzMTIgMS44NjMyODIgMS44NTkzNzUgNC40NDE0MDYgMi45Mjk2ODggNy4wNzAzMTMgMi45Mjk2ODh6bTAgMCIvPjxwYXRoIGQ9Im0yOTAuODk4NDM4IDYwLjU0Mjk2OWMxLjg1OTM3NCAxLjg3MTA5MyA0LjQ0MTQwNiAyLjkyOTY4NyA3LjA3MDMxMiAyLjkyOTY4NyAyLjY0MDYyNSAwIDUuMjEwOTM4LTEuMDU4NTk0IDcuMDcwMzEyLTIuOTI5Njg3IDEuODcxMDk0LTEuODU5Mzc1IDIuOTM3NS00LjQzNzUgMi45Mzc1LTcuMDcwMzEzIDAtMi42Mjg5MDYtMS4wNjY0MDYtNS4yMDcwMzEtMi45Mzc1LTcuMDY2NDA2LTEuODU5Mzc0LTEuODYzMjgxLTQuNDI5Njg3LTIuOTMzNTk0LTcuMDcwMzEyLTIuOTMzNTk0LTIuNjI4OTA2IDAtNS4yMTA5MzggMS4wNzAzMTMtNy4wNzAzMTIgMi45MzM1OTQtMS44NTkzNzYgMS44NTkzNzUtMi45Mjk2ODggNC40Mzc1LTIuOTI5Njg4IDcuMDY2NDA2IDAgMi42MzI4MTMgMS4wNzAzMTIgNS4yMTA5MzggMi45Mjk2ODggNy4wNzAzMTN6bTAgMCIvPjxwYXRoIGQ9Im0xNDcuMzEyNSA0MjMuOTcyNjU2aC00NC4zMzU5MzhjLTUuNTIzNDM3IDAtMTAgNC40ODA0NjktMTAgMTAgMCA1LjUyMzQzOCA0LjQ3NjU2MyAxMCAxMCAxMGg0NC4zMzU5MzhjNS41MjM0MzggMCAxMC00LjQ3NjU2MiAxMC0xMCAwLTUuNTE5NTMxLTQuNDc2NTYyLTEwLTEwLTEwem0wIDAiLz48cGF0aCBkPSJtNTYuMTYwMTU2IDQyMy45NzI2NTZjLTIuNjQwNjI1IDAtNS4yMTA5MzcgMS4wNzAzMTMtNy4wODIwMzEgMi45MzM1OTQtMS44NTkzNzUgMS44NTkzNzUtMi45MTc5NjkgNC40Mzc1LTIuOTE3OTY5IDcuMDY2NDA2IDAgMi42MzI4MTMgMS4wNTg1OTQgNS4yMTA5MzggMi45MTc5NjkgNy4wNzAzMTMgMS44NzEwOTQgMS44NjMyODEgNC40NDE0MDYgMi45Mjk2ODcgNy4wODIwMzEgMi45Mjk2ODcgMi42Mjg5MDYgMCA1LjIxMDkzOC0xLjA2NjQwNiA3LjA3MDMxMy0yLjkyOTY4NyAxLjg1OTM3NS0xLjg1OTM3NSAyLjkyOTY4Ny00LjQzNzUgMi45Mjk2ODctNy4wNzAzMTMgMC0yLjYyODkwNi0xLjA3MDMxMi01LjIwNzAzMS0yLjkyOTY4Ny03LjA2NjQwNi0xLjg1OTM3NS0xLjg2MzI4MS00LjQ0MTQwNy0yLjkzMzU5NC03LjA3MDMxMy0yLjkzMzU5NHptMCAwIi8+PHBhdGggZD0ibTE5NC4xMjg5MDYgNDIzLjk3MjY1NmMtMi42Mjg5MDYgMC01LjIwNzAzMSAxLjA3MDMxMy03LjA3MDMxMiAyLjkzMzU5NC0xLjg1OTM3NSAxLjg1OTM3NS0yLjkyOTY4OCA0LjQzNzUtMi45Mjk2ODggNy4wNjY0MDYgMCAyLjYzMjgxMyAxLjA3MDMxMyA1LjIxMDkzOCAyLjkyOTY4OCA3LjA3MDMxMyAxLjg2MzI4MSAxLjg2MzI4MSA0LjQ0MTQwNiAyLjkyOTY4NyA3LjA3MDMxMiAyLjkyOTY4NyAyLjYzMjgxMyAwIDUuMjEwOTM4LTEuMDY2NDA2IDcuMDcwMzEzLTIuOTI5Njg3IDEuODU5Mzc1LTEuODU5Mzc1IDIuOTI5Njg3LTQuNDM3NSAyLjkyOTY4Ny03LjA3MDMxMyAwLTIuNjI4OTA2LTEuMDcwMzEyLTUuMjA3MDMxLTIuOTI5Njg3LTcuMDY2NDA2LTEuODU5Mzc1LTEuODYzMjgxLTQuNDM3NS0yLjkzMzU5NC03LjA3MDMxMy0yLjkzMzU5NHptMCAwIi8+PHBhdGggZD0ibTQyMi44MDA3ODEgMTc1LjAwMzkwNmMyLjY0MDYyNSAwIDUuMjEwOTM4LTEuMDcwMzEyIDcuMDcwMzEzLTIuOTI5Njg3czIuOTI5Njg3LTQuNDQxNDA3IDIuOTI5Njg3LTcuMDcwMzEzLTEuMDcwMzEyLTUuMjEwOTM3LTIuOTI5Njg3LTcuMDcwMzEyLTQuNDMzNTk0LTIuOTI5Njg4LTcuMDcwMzEzLTIuOTI5Njg4Yy0yLjYyODkwNiAwLTUuMjEwOTM3IDEuMDcwMzEzLTcuMDcwMzEyIDIuOTI5Njg4cy0yLjkyOTY4OCA0LjQ0MTQwNi0yLjkyOTY4OCA3LjA3MDMxMiAxLjA3MDMxMyA1LjIxMDkzOCAyLjkyOTY4OCA3LjA3MDMxMyA0LjQ0MTQwNiAyLjkyOTY4NyA3LjA3MDMxMiAyLjkyOTY4N3ptMCAwIi8+PHBhdGggZD0ibTQ1Ni44MjAzMTIgNDc1Ljk3MjY1NmMtMi42NDA2MjQgMC01LjIxMDkzNyAxLjA3MDMxMy03LjA3MDMxMiAyLjkzMzU5NC0xLjg3MTA5NCAxLjg1OTM3NS0yLjkyOTY4OCA0LjQzNzUtMi45Mjk2ODggNy4wNjY0MDYgMCAyLjYzMjgxMyAxLjA1ODU5NCA1LjIxMDkzOCAyLjkyOTY4OCA3LjA3MDMxMyAxLjg1OTM3NSAxLjg2MzI4MSA0LjQzNzUgMi45Mjk2ODcgNy4wNzAzMTIgMi45Mjk2ODcgMi42Mjg5MDcgMCA1LjIwNzAzMi0xLjA2NjQwNiA3LjA3MDMxMy0yLjkyOTY4NyAxLjg1OTM3NS0xLjg1OTM3NSAyLjkyOTY4Ny00LjQzNzUgMi45Mjk2ODctNy4wNzAzMTMgMC0yLjYyODkwNi0xLjA3MDMxMi01LjIwNzAzMS0yLjkyOTY4Ny03LjA2NjQwNi0xLjg2MzI4MS0xLjg2MzI4MS00LjQ0MTQwNi0yLjkzMzU5NC03LjA3MDMxMy0yLjkzMzU5NHptMCAwIi8+PC9zdmc+" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-3">
+                	</div>
+                	</div>
+                    <div class="row justify-content-center">
+                    	<p style="color: #00043C; font-family: Helvetica; font-size: 25px;">Powder Coating</p>
+                        <p style="text-align: center; padding-left: 10%; padding-right: 10%; color: #000000CC; font-family: Helvetica; font-size: 16px;"> Our sister concern Jaydee Enterprises handles our Powder Coating division and has earned a reputation for premium quality powder coating jobs. </p>
+                    <a href="regular-page-multiple.html"><span style="color:#ec292a" id="Powder Coating" class="Powder Coating" onclick="showPowderCoating()">Learn More</span></a>
+                    </div>
+                </div>
+
+                <!-- Single Category -->
+                <div class="col-12 col-sm-6 col-md-3">
+                	<div class="row justify-content-center">
+                	<div class="col-12 col-sm-5 col-md-3">
+                	</div>
+                    <div class="col-12 col-sm-8 col-md-6">
+                        <div class="category-content" style="padding-top: 20%;padding-bottom: 10%;">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIuMDAxIDUxMi4wMDEiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyLjAwMSA1MTIuMDAxIiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnPjxwYXRoIGQ9Im01MDQuNSA0OTcuMDAxaC0zMi43M2M2LjA3OS0xMy40ODUgMTAuNDY3LTI3LjA5OCAxMy4wNjUtNDAuNjA3Ljc4Mi00LjA2Ny0xLjg4MS03Ljk5OS01Ljk0OS04Ljc4MS00LjA2OC0uNzc4LTcuOTk5IDEuODgxLTguNzgxIDUuOTQ5LTIuNzcxIDE0LjQwOC03Ljc4MSAyOS0xNC45MTIgNDMuNDM4aC0zMS45NTN2LTExLjU0OGMwLTQuMTQzLTMuMzU3LTcuNS03LjUtNy41cy03LjUgMy4zNTctNy41IDcuNXYxMS41NDhoLTMxLjk1M2MtMTEuMTc4LTIyLjYyOC0xNy4wNzYtNDUuNDYyLTE3LjU0Mi02Ny45MzgtLjI1My0xMi4xODUgMS4wOTktMjQuNDczIDQuMDExLTM2Ljc3NGgxMDUuOTY1YzIuNTk0IDEwLjk1NiAzLjk1MiAyMS44OTkgNC4wMzMgMzIuNzU4LjAzMSA0LjEyMyAzLjM4MyA3LjQ0NCA3LjQ5OSA3LjQ0NGguMDU3YzQuMTQzLS4wMzEgNy40NzUtMy40MTQgNy40NDQtNy41NTYtLjA4My0xMS4xNTktMS4zODMtMjIuMzc1LTMuODU5LTMzLjU4NSAyLjMwNy0xLjI3OSAzLjg3LTMuNzM3IDMuODctNi41NjIgMC00LjE0My0zLjM1Ny03LjUtNy41LTcuNWgtLjEwMWMtMi43NTctOC45LTYuMjQ5LTE3Ljc3OS0xMC40OTMtMjYuNjA0LTIuODEtNS44NDItOC41ODQtOS43NzUtMTUuMDE0LTEwLjM3NnYtMTEuNzA2YzAtOS4wNzQtNy4zMDctMTYuNDYyLTE2LjM0NS0xNi42MTZ2LTI3NC4wMzZjMC0yMC45MjUtMTcuMDIzLTM3Ljk0OC0zNy45NDgtMzcuOTQ4bC0yODEuMTg1LS4wMDFjLTIwLjkyNSAwLTM3Ljk0OSAxNy4wMjMtMzcuOTQ5IDM3Ljk0OHYxNS42OGgtMjMuNTgzYy05LjM4NiAwLTE3LjAyMSA3LjYzNi0xNy4wMjEgMTcuMDIxdjIyLjI5N2MtMi4yNjUgMS4yOTEtMy43OTYgMy43MjMtMy43OTYgNi41MTdzMS41MyA1LjIyNiAzLjc5NiA2LjUxN3YxODYuNDE0Yy0xMi45ODMgMTguODU4LTIwLjU5NiA0MS42ODYtMjAuNTk2IDY2LjI2MXYyMC42NjloLTQuOTA1Yy00LjE0MyAwLTcuNSAzLjM1Ny03LjUgNy41czMuMzU3IDcuNSA3LjUgNy41aDQuOTA1djQwLjQ0MWMwIDQuMTQzIDMuMzU3IDcuNSA3LjUgNy41czcuNS0zLjM1NyA3LjUtNy41di00MC40NDFoMjA0LjI4NnYxMDIuNjc4aC02NS4wM3YtNDEuMzMyYzAtNy4zOTUtNi4wMTctMTMuNDExLTEzLjQxMS0xMy40MTFoLTQ3LjQwM2MtNy4zOTUgMC0xMy40MTEgNi4wMTctMTMuNDExIDEzLjQxMXY0MS4zMzJoLTY1LjAzMXYtMzIuMjQ5YzAtNC4xNDMtMy4zNTctNy41LTcuNS03LjVzLTcuNSAzLjM1Ny03LjUgNy41djMyLjI0OWgtMTIuNTNjLTQuMTQzIDAtNy41IDMuMzU3LTcuNSA3LjVzMy4zNTcgNy41IDcuNSA3LjVoNDk3YzQuMTQzIDAgNy41LTMuMzU3IDcuNS03LjVzLTMuMzU3LTcuNTAxLTcuNS03LjUwMXptLTM4OS40NC0zOS43NDNoNDQuMjI2djM5Ljc0MmgtNDQuMjI2em0yNzkuOTQtMTQ1LjI4N2gtMS41NDhjLTkuMTcgMC0xNi42MzEgNy40NjEtMTYuNjMxIDE2LjYzMXYxMS43MDZjLTYuNDMuNjAyLTEyLjIwNCA0LjUzNS0xNS4wMTQgMTAuMzc3LTQuMjU1IDguODUtNy43MzkgMTcuNzItMTAuNDg5IDI2LjYwNGgtLjEwNGMtNC4xNDMgMC03LjUgMy4zNTctNy41IDcuNSAwIDIuODI4IDEuNTY2IDUuMjg5IDMuODc4IDYuNTY2LTEuMTIyIDUuMTAzLTEuOTk1IDEwLjIwOS0yLjYyMiAxNS4zMTdoLTI4LjgyYy0uMDA4LTI2LjU1LS4wMDItMjA0LjkxMSAwLTI2MC42OTMgMi4yNjUtMS4yOTEgMy43OTUtMy43MjMgMy43OTUtNi41MTZzLTEuNTMtNS4yMjYtMy43OTUtNi41MTZ2LTIyLjI5N2MwLTkuMzg2LTcuNjM3LTE3LjAyMS0xNy4wMjItMTcuMDIxaC0yMi4zNjN2LTE5Ljc5YzAtNy40NTcgNi4wNjYtMTMuNTI0IDEzLjUyMy0xMy41MjRoOTEuMTg4YzcuNDU3IDAgMTMuNTI0IDYuMDY3IDEzLjUyNCAxMy41MjR6bS0xNTcuNjIzLTE2NS4wMDhoNjMuNzcxdjUzLjQxM2gtNjMuNzcxem0wIDY4LjQxM2g2My43NzF2NTMuNzIyaC02My43NzF6bTYxLjc0OS0xMDYuNzQ4YzEuMTE1IDAgMi4wMjIuOTA3IDIuMDIyIDIuMDIxdjIxLjMxM2gtNjMuNzcxdi0yMS4zMTNjMC0xLjExNC45MDctMi4wMjEgMi4wMjEtMi4wMjF6bS03Ni43NDkgOTAuMzQ5aC04Ny43MjF2LTEwLjI4N2g4Ny43MjF6bS0xMDIuOTgxLTY3LjMwOGgtMTYuODkyYy00LjE0MyAwLTcuNSAzLjM1Ny03LjUgNy41czMuMzU3IDcuNSA3LjUgNy41aDE2Ljg5MnY1My43MjJoLTYzLjc3MXYtNTMuNzIyaDE2Ljg5MmM0LjE0MyAwIDcuNS0zLjM1NyA3LjUtNy41cy0zLjM1Ny03LjUtNy41LTcuNWgtMTYuODkydi0yNC43MDZoNjMuNzcxem0wIDgzLjcyMnYyNy40NjhjLTI0LjU5NSAzLjc2LTQ2LjY5MSAxNS4yMDItNjMuNzcxIDMxLjc4NXYtNTkuMjUzem0xNS0xLjQxNGg4Ny44NTFjLjAwMSAxLjUyLS4wMzIgNjguNjY3LjEzMSA2NC4zNzUtMjEuMzc1LTIyLjY2Ny01MS42NjQtMzYuODQtODUuMjA1LTM2Ljg0LS45MjggMC0xLjg1My4wMTQtMi43NzYuMDM1di0yNy41N3ptMTAyLjk4MSA3MC4xMjFoNjMuNzcxdjY5LjM0M2gtNDYuOTU1Yy0uODktMjAuMjA5LTYuOTE4LTM5LjEwNi0xNi44MTYtNTUuNDA3em0yMS44NDMgMTEwLjIyNWM0LjE0MyAwIDcuNS0zLjM1NyA3LjUtNy41cy0zLjM1Ny03LjUtNy41LTcuNWgtNC45MDR2LTEwLjg4M2g0Ni44MzN2MzguMjMxaC00Ni44MzN2LTEyLjM0OWg0LjkwNHptLTQuOTA0IDI3LjM0OWg4OS41MjRjLS4wOTggMy40OTctLjA4IDYuOTk0LjA1NSAxMC40OWgtODkuNTc4di0xMC40OXptOTAuODY0IDI1LjQ5YzIuMjE3IDE2LjY0NyA3LjA1OSAzMy4yNzUgMTQuNTMyIDQ5LjgzOWgtNDMuNTYzdi00OS44Mzl6bTExMC45NzQtODkuOTc3YzMuMjEzIDYuNjgzIDUuOTUzIDEzLjM5IDguMjM5IDIwLjEwNGgtOTcuMzAxYzIuMjg2LTYuNzEzIDUuMDE5LTEzLjQxOCA4LjIzMy0yMC4xMDMuNTc1LTEuMTk1IDEuODM2LTEuOTY4IDMuMjEyLTEuOTY4aDc0LjQwNmMxLjM3NiAwIDIuNjM2Ljc3MiAzLjIxMSAxLjk2N3ptLTE2LjQ5Ni0yOC41ODN2MTEuNjE2aC00Ny44Mzd2LTExLjYxNmMwLS44OTkuNzMxLTEuNjMxIDEuNjMxLTEuNjMxaDQ0LjU3NmMuODk4IDAgMS42My43MzEgMS42MyAxLjYzMXptLTM0My40MjgtMjkwLjY1NGMwLTEyLjY1MyAxMC4yOTUtMjIuOTQ4IDIyLjk0OS0yMi45NDhsMjgxLjE4Ni4wMDFjMTIuNjUzIDAgMjIuOTQ4IDEwLjI5NSAyMi45NDggMjIuOTQ4djI3NC4wMjFoLTEzLjMxM3YtMjM4LjEzMWMwLTE1LjcyOS0xMi43OTYtMjguNTI0LTI4LjUyNC0yOC41MjRoLTkxLjE4OGMtMTUuNzI4IDAtMjguNTIzIDEyLjc5Ni0yOC41MjMgMjguNTI0djE5Ljc4OWgtMjIuMzY0Yy05LjM4NiAwLTE3LjAyMSA3LjYzNi0xNy4wMjEgMTcuMDIxdjIyLjI5N2MtMi4yNjUgMS4yOTEtMy43OTYgMy43MjMtMy43OTYgNi41MTdzMS41MyA1LjIyNiAzLjc5NiA2LjUxN3YyNy43MTFoLTg3LjcyMWMtLjE0Mi01Mi45MzQuMjE2IDI0LjY1NC0uMjYxLTY3LjcxMSAyLjI2NS0xLjI5MSAzLjc5Ni0zLjcyMyAzLjc5Ni02LjUxN3MtMS41My01LjIyNi0zLjc5Ni02LjUxN3YtMjIuMjk3YzAtOS4zODYtNy42MzYtMTcuMDIxLTE3LjAyMS0xNy4wMjFoLTIxLjE0N3ptLTM4LjU4MyAzMC42OGg1OS43MjhjMS4xMTQgMCAyLjAyMS45MDcgMi4wMjEgMi4wMjF2MjEuMzEzaC02My43NzF2LTIxLjMxM2MwLTEuMTE0LjkwOC0yLjAyMSAyLjAyMi0yLjAyMXptLTIyLjYxNyAzMTAuNjk1di0yMC42NjljMC01Ni4zMjEgNDUuODIxLTEwMi4xNDMgMTAyLjE0NC0xMDIuMTQzIDU2LjMyMSAwIDEwMi4xNDMgNDUuODIxIDEwMi4xNDMgMTAyLjE0M3YyMC42Njl6bTIxOS4yODYgNjcuODM5aDQ2LjgzM3Y0OS44MzloLTQ2LjgzM3oiLz48cGF0aCBkPSJtMTM3LjE3MiAyOTMuNDk4Yy03LjEwMyAwLTEzLjczMyA1LjEyNi0xOC42NjkgMTQuNDM1LTMuNTYyIDYuNzE2LTUuODYyIDE0Ljk2NS01Ljg2MiAyMS4wMTcgMCAxMy41MjcgMTEuMDA1IDI0LjUzMiAyNC41MzEgMjQuNTMyIDEzLjUyNyAwIDI0LjUzMi0xMS4wMDUgMjQuNTMyLTI0LjUzMiAwLTYuMDUyLTIuMzAxLTE0LjMwMS01Ljg2Mi0yMS4wMTctNC45MzYtOS4zMDktMTEuNTY2LTE0LjQzNS0xOC42Ny0xNC40MzV6bTAgNDQuOTgzYy01LjI1NiAwLTkuNTMxLTQuMjc2LTkuNTMxLTkuNTMyIDAtOC4xNDUgNi41NjItMTkuOTg3IDkuNDk5LTIwLjQ1MyAzLjAwMi40NjUgOS41NjQgMTIuMzA3IDkuNTY0IDIwLjQ1My4wMDEgNS4yNTYtNC4yNzYgOS41MzItOS41MzIgOS41MzJ6Ii8+PC9nPjwvc3ZnPg==" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-3">
+                	</div>
+                	</div>
+                    <div class="row justify-content-center">
+                    	<p style="color: #00043C; font-family: Helvetica; font-size: 25px;">Specialized Coating</p>
+                        <p style="text-align: center; padding-left: 10%; padding-right: 10%; color: #000000CC; font-family: Helvetica; font-size: 16px;"> We at Prasho Engineers specialise in performing coating treatments on different types of materials such as — Fibre, Wood, Ferrous and Non-Ferrous materials. </p>
+                    <a href="regular-page-multiple.html"><span style="color:#ec292a" id="Specialized Coating" class="Specialized Coating" onclick="showSpecializedCoating()">Learn More</span></a>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Top category Area End ##### -->
+
+    <!-- ##### CTA Area Start ##### -->
+    <!-- <div class="cta-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content bg-img background-overlay" style="background-image: url(img/bg-img/bg-5.jpg);">
+                        <div class="h-100 d-flex align-items-center justify-content-end">
+                            <div class="cta--text">
+                                <h6>-60%</h6>
+                                <h2>Global Sale</h2>
+                                <a href="#" class="btn essence-btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- ##### CTA Area End ##### -->
+
+    <!-- Animation -->
+    <div class="container">
+            <div class="row justify-content-center" style="text-transform: capitalize; ">
+                <div class="col-12 col-md-4" style="color:white; font-size: 28px ;background-color: #00043C; height: 80px; padding-top: 15px; padding-bottom: 15px; text-align: center;">
+                <strong><span class="count" onload="loadCount()">39</span></strong>
+                <strong>Years of Experience</strong>
+                </div>
+                <div class="col-12 col-md-4" style="color:black; font-size: 28px ;background-color: #EAECEE; height: 80px; padding-top: 15px; padding-bottom: 15px; text-align: center;">
+                <strong><span class="count">40</span>+</strong>
+                <strong>Clients Worldwide</strong>
+                </div>
+                <div class="col-12 col-md-4" style="color:white; font-size: 28px ;background-color: #00043C; height: 80px; padding-top: 15px; padding-bottom: 15px; text-align: center;">
+                <strong><span class="count">300000</span>+</strong>
+                <strong>Jobs Done</strong>
+                </div>
+            </div>
+   	</div>
+    
+    <!-- ##### New Arrivals Area Start ##### -->
+    <section class="new_arrivals_area section-padding-80 clearfix">
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Testimonials</h2>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div style="display:none; class=popular-products-slides owl-carousel">
+
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <p> Hello, this is a really good company. The management has a really good foresight and the workers are extremely talented.</p>
+                            <p style="text-align: right;">~Rohan</p>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <p> Prasho engineers have the latest machinery and use the latest technology available in the market.</p>
+                            <p style="text-align: right;">~Devashree</p>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <p> Jobs are delivered on time. Any delay is conveyed well in advance.</p>
+                            <p style="text-align: right;">~Avaneesh</p>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <p> Great company, great management, great workers, great technology.</p>
+                            <p style="text-align: right;">~Keyur</p>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <p> Shot blasting is of highest quality.</p>
+                            <p style="text-align: right;">~Robert</p>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <p> Hello, this is a really good company. The management has a really good foresight and the workers are extremely talented.</p>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <p> Hello, this is a really good company. The management has a really good foresight and the workers are extremely talented.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!-- ##### New Arrivals Area End ##### -->
+
+    <!-- The Modal -->
+	<div id="myModal" class="modal">
+
+	  <!-- Modal content -->
+	  <div class="modal-content">
+	    <form method="post" action="update_data.php">
+                    <div class="row">
+                    	<div class="col-md-1 col-sm-2">
+                    	</div>
+                        <div class="col-md-10 col-sm-14">
+                            <div class="form-group">
+                              <label for="color_id">Name</label>
+                             <input type='text' class='form-control ' name='color_id2' id='color_id2'>
+                            </div>  
+                        </div>                    
+                      	<div class="col-md-1 col-sm-2">
+                    	</div>
+                    </div>
+                    <div class="row">
+                    	<div class="col-md-1 col-sm-2">
+                    	</div>
+                        <div class="col-md-10 col-sm-14">
+                            <div class="form-group">
+                              <label for="color_id">Contact Number</label>
+                             <input type='text' class='form-control ' name='color_id2' id='color_id2'>
+                            </div>  
+                        </div>                    
+                      	<div class="col-md-1 col-sm-2">
+                    	</div>
+                    </div>
+                    <div class="row">
+                    	<div class="col-md-1 col-sm-2">
+                    	</div>
+                        <div class="col-md-10 col-sm-14">
+                            <div class="form-group">
+                              <label for="color_id">Email Address</label>
+                             <input type='text' class='form-control ' name='color_id2' id='color_id2'>
+                            </div>  
+                        </div>                    
+                      	<div class="col-md-1 col-sm-2">
+                    	</div>
+                    </div>
+                    <div class="row">
+                    	<div class="col-md-1 col-sm-2">
+                    	</div>
+                        <div class="col-md-10 col-sm-14">
+                            <div class="form-group">
+                              <label for="color_id">Message</label>
+                             <textArea class='form-control' placeholder="Kindly upload an image of the products along with this message" name='color_id2' id='color_id2'></textArea>
+                            </div>  
+                        </div>                    
+                      	<div class="col-md-1 col-sm-2">
+                    	</div>
+                    </div>
+                    <div class="row">
+                    	<div class="col-md-1 col-sm-2">
+                    	</div>
+                        <div  style="float: right;">
+                            <button type="submit" value="submit" id="btn_edit_color" name="btn_edit_color" class="btn btn-primary">Update</button>
+                        </div>
+                    </div>     
+                </form>	
+	  </div>
+
+	</div>
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer_area clearfix">
+      <div class="container">
+          <div class="row">
+              <!-- Single Widget Area -->
+              <div class="col-12 col-md-2">
+                  <div class="single_widget_area d-flex mb-30">
+                      <!-- Logo -->
+                      <div class="footer-logo mr-50">
+                          <img src="img/logo.png" style="height: 80px; align-content: center;" alt="">
+                      </div>
+                  </div>
+                  <div class="row align-items-end">
+              
+                          <!-- Single Widget Area> -->
+                              <div class="single_widget_area">
+                                  <div class="footer_social_area">
+                                      <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                      <a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                      <a href="#" data-toggle="tooltip" data-placement="top" title="WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                  </div>
+                              </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="single_widget_area d-flex mb-30">
+                      <!-- Footer Menu -->
+                      <div class="footer_menu">
+                          <ul>
+                              <div class="col-12 col-md-12" style=" font-family: sans-serif;">
+                              <div class="row" >
+                                <span class="fa fa-map-marker" style="color: white;">&nbsp;:&nbsp;'S' Block, MIDC, Bhosari - 411026, Pune
+                                </span>
+                              </div>
+                              <div class="row"><span class="fa fa-phone" style="margin-top: 5%; color: white;">&nbsp;:&nbsp;+91-9421195607</span></div>
+                              <div class="row"><span class="fa fa-envelope-o" style="margin-top: 5%; color: white;">&nbsp;:&nbsp;teamprasho@gmail.com</span></div>
+                              <div class="row"><span class="fa fa-clock-o" style="margin-top: 5%; color: white;">&nbsp;:&nbsp;8:00AM to 4:40PM</span></div>
+                              </div>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-2">
+              </div>
+              <!-- Single Widget Area -->
+              <div class="col-12 col-md-4">
+                  <div class="single_widget_area mb-30">
+                      <div style=" color: white; font-size: 20px; margin-bottom: 5%;">Quick Links</div>
+                      <ul class="footer_widget_menu">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about_us.html">About Us</a></li>
+                          <li><a href="regular-page-multiple.html">Our Services</a></li>
+                          <li><a href="contact.html">Contact Us</a></li>
+                          <li><a href="contact.html"><span id="Quote" class="Quote" onclick="showQuote()">Get A Quote</span></a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+<div class="row mt-5" style="display: none;">
+              <div class="col-md-12 text-center">
+                  <p style="color: #252525;">
+                      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" style="color: #252525;">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  </p>
+              </div>
+          </div>
+
+      </div>
+  </footer>
+  <!-- ##### Footer Area End ##### -->
+	
+    <script>
+    $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+	});
+
+	function loadCount() {
+		$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+	});
+
+	}
+	</script>
+
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <script type="text/javascript">
+	// Get the modal
+	var modal = document.getElementById("myModal");
+
+	function showQuote() {
+		modal.style.display = "block";
+	}
+	                
+	</script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Classy Nav js -->
+    <script src="js/classy-nav.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>

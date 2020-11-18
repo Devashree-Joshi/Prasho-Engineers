@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Essence - Fashion Ecommerce Template</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<style>
+  .prasho-header {
+    font-size: 30px;
+    visibility: hidden;
+  }
+  @media only screen and (max-width: 767px) {
+    .prasho-header {
+      display: none;
+  }
+  }
+</style>
+
+<body>
+<!-- ##### Header Area Start ##### -->
+    <header class="header_area">
+        <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
+            <!-- Classy Menu -->
+            <nav class="classy-navbar" id="essenceNav">
+                <!-- Logo -->
+                <div class="myCarouselScreen" ><a class="nav-brand" class="myCarouselScreen" href="index.html"><img src="img/logo.png" style="height: 80px;" alt=""></a></div>
+                <div class="myCarouselDevice" ><a class="nav-brand" class="myCarouselDevice" href="index.html"><img src="img/logo.png" style="height: 35px;" alt=""></a></div>
+                <!-- Navbar Toggler -->
+                <div class="classy-navbar-toggler">
+                    <span class="navbarToggler"><span></span><span></span><span></span></span>
+                </div>
+                <!-- Menu -->
+                <div class="classy-menu">
+                    <!-- close btn -->
+                    <div class="classycloseIcon">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                    </div>
+                    <!-- Nav Start -->
+                    <div class="classynav">
+                        <ul>
+                        	<!--<li style="font-size: 30px;">Prasho Engineers</li>-->
+                            <li><a href="index.html" style="color:#00043C;"><h4>Home</h4></a>
+                            </li>
+                            <li><a href="about_us.html" style="color:#00043C;"><h4>About Us</h4></a>
+                            </li>
+                            <li><a href="regular-page-multiple.html" style="color:#00043C;"><h4>Our Services</h4></a>
+                            </li>
+                            <li><a href="contact.html" style="color:#00043C;"><h4>Contact Us</h4></a></li>
+                            <li><a href="contact.html" style="color:#00043C;"><span id="Quote" class="Quote" onclick="showQuote()"><h4>Get A Quote</h4></span></a></li>
+                        </ul>
+
+                    </div>
+                    <!-- Nav End -->
+                </div>
+            </nav>
+       
+
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <div class="col-12 col-md-12">
+    <div class="row">
+    <div class="myCarouselScreen" style="background-color: #fcfad3; width: 100%; height: 80px; text-align: center; font-size: 30px; color: #00043C; margin-top: 6%; margin-bottom: 0.8%; padding-bottom: 20px; padding-top: 20px">
+        <h3>We believe in the power of Quality!</h3>
+    </div>
+    <div class="myCarouselDevice" style="background-color: #fcfad3; width: 100%; height: 80px; text-align: center; font-size: 30px; color: #00043C; margin-top: 6%; margin-bottom: 0.8%; padding-bottom: 20px; padding-top: 20px">
+        <h3>We believe in the power of Quality!</h3>
+    </div>
+    
+    <!-- ##### Blog Wrapper Area Start ##### -->
+    <div class="single-blog-wrapper">
+
+        <!-- Single Blog Post Thumb -->
+        <!-- <div class="single-blog-post-thumb">
+            <img src="img/bg-img/bg-8.jpg" alt="">
+        </div> -->
+        <div class="container">
+            <div class="row justify-content-between">
+                <div id="myCarouselDevice" class="carousel-inner col-12 col-md-4" data-ride="carousel" >
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div id = "carousel-img"class="carousel-inner" style="height: 450px" >
+                    <div class="item active">
+                      <img style="margin-top: 38%" src="img/cover_photos/shotblasting/sb1.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/shotblasting/sb2.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/shotblasting/sb3.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/shotblasting/sb4.png"/>
+                    </div>
+                    
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/shotblasting/sb5.png"/>
+                    </div>
+                
+                <!-- Left and right controls -->
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="regular-page-content-wrapper section-padding-80">
+                        <div class="regular-page-text"  style="padding-top:5%;">
+                            <h2>Shot Blasting</h2>
+                            <p>Shot blasting is a technological procedure that serves as the first step of cleaning surfaces of various types of materials. A high velocity steel abrasive is used for performing shot blasting on different materials. This method acts as a surface protector, since it helps in removing impurities from different surfaces, making them ready for further coating and finishing processes like spray painting, welding, etc. 
+                            <br>At Prasho, we follow the commercial standard of surface treatment quality — Swedish SA 2.5 standard. The SA 2.5 Shot Blasting process makes our jobs durable, smooth surfaced and free from surface contaminants. Being one of the oldest Shot Blasting processing units present in MIDC, Bhosari, Prasho takes pride in providing top quality jobs done by trained experts using state of the art machinery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="myCarouselScreen" class="carousel-inner col-12 col-md-4" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div id = "carousel-img"class="carousel-inner" style="height: 450px  " >
+                    <div class="item active">
+                      <img style="margin-top: 38%" src="img/cover_photos/shotblasting/sb1.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/shotblasting/sb2.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/shotblasting/sb3.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/shotblasting/sb4.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/shotblasting/sb5.png"/>
+                    </div>
+                
+                <!-- Left and right controls -->
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-between">
+                <div id="myCarousel" class="carousel-inner col-12 col-md-4" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div id = "carousel-img"class="carousel-inner" style="height: 450px  " >
+                    <div class="item active">
+                      <img style="margin-top: 38%" src="img/cover_photos/spraypainting/sp1.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/spraypainting/sp2.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/spraypainting/sp3.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/spraypainting/sp4.png"/>
+                    </div>
+                
+                <!-- Left and right controls -->
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                </div>  
+                <div class="col-12 col-md-8">
+                    <div class="regular-page-content-wrapper section-padding-80">
+                        <div class="regular-page-text">
+                            <h2>Spray Painting</h2>
+                            <p><strong> Epoxy Coating </strong>
+                            <br>Epoxy Coating is a surface finishing process used to add long-lasting layers of protection to a material. After performing processes like Sandering, Shot Blasting, Putty Filling, a thick coat of Epoxy Paint is used on the material to preserve it from exterior deterioration. 
+                            <br>We use high quality product on our jobs, thus making them resistant to things like chemicals, abrasions, stains, amongst others. 
+
+                            <br><strong> P.U. (Polyurethane) Coating </strong>
+                            <br>Along with Epoxy Coating, we also provide P.U. (Polyurethane) Coating at Prasho Engineers. It is also a surface protectant that keeps surfaces safe from various imperfections like weathering, corrosion, abrasions and many other surface deteriorating processes.
+                            <br><br>The difference between Epoxy Coating and P.U. (Polyurethane) Coating is that Epoxy provides tougher coated surfaces whereas Polyurethane has less compressive strength and durability. Since Polyurethane coatings are softer, they make materials more flexible and thus more scratch resistant. We recommend choosing the type of coating as per the requirement of specific materials and the amount of wear and tear they will be exposed to.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-between">
+              <div id="myCarouselDevice" class="carousel-inner col-12 col-md-4" data-ride="carousel" >
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div id = "carousel-img"class="carousel-inner" style="height: 450px  " >
+                  <div class="item active">
+                    <img style="margin-top: 38%" src="img/cover_photos/powdercoating/pc1.png"/>
+                  </div>
+
+                  <div class="item">
+                    <img style="margin-top: 38%" src="img/cover_photos/powdercoating/pc2.png"/>
+                  </div>
+
+                  <div class="item">
+                    <img style="margin-top: 38%" src="img/cover_photos/powdercoating/pc3.png"/>
+                  </div>
+
+                  <div class="item">
+                    <img style="margin-top: 38%" src="img/cover_photos/powdercoating/pc4.png"/>
+                  </div>
+              
+              <!-- Left and right controls -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+              </div>
+              </div>
+              <div class="col-12 col-md-8">
+                <div class="regular-page-content-wrapper section-padding-80">
+                    <div class="regular-page-text">
+                        <h2>Powder Coating</h2>
+                        <p>Powder coating is a finishing process done using dry powder, applied electrostatically and then baked in a furnace under heat or with U.V light. This method of coating gives materials a durable, long-lasting and colour protective finish. 
+                        <br>Possessing top-level furnaces and powder coating gadgetry, we assure our customers with materials having premium quality finishing, and resistance to scratches, colour fading, chipping and other exterior damages. </p>
+                    </div>
+                </div>
+            </div>
+              <div id="myCarouselScreen" class="carousel-inner col-12 col-md-4" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div id = "carousel-img"class="carousel-inner" style="height: 450px  " >
+                    <div class="item active">
+                      <img style="margin-top: 38%" src="img/cover_photos/powdercoating/pc1.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/powdercoating/pc2.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/powdercoating/pc3.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/powdercoating/pc4.png"/>
+                    </div>
+                
+                <!-- Left and right controls -->
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-between">
+                <div id="myCarouselDevice" class="carousel-inner col-12 col-md-4" data-ride="carousel" >
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div id = "carousel-img"class="carousel-inner" style="height: 450px  " >
+                    <div class="item active">
+                      <img style="margin-top: 38%" src="img/cover_photos/specialisedcoating/sc1.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/specialisedcoating/sc2.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/specialisedcoating/sc3.png"/>
+                    </div>
+                
+                <!-- Left and right controls -->
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                </div>
+                <div id="myCarouselScreen" class="carousel-inner col-12 col-md-4" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div id = "carousel-img"class="carousel-inner" style="height: 450px  " >
+                    <div class="item active">
+                      <img style="margin-top: 38%" src="img/cover_photos/specialisedcoating/sc1.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/specialisedcoating/sc2.png"/>
+                    </div>
+
+                    <div class="item">
+                      <img style="margin-top: 38%" src="img/cover_photos/specialisedcoating/sc3.png"/>
+                    </div>
+                
+                <!-- Left and right controls -->
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next" style="background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="regular-page-content-wrapper section-padding-80">
+                      <div class="regular-page-text">
+                          <h2>Specialised Coating</h2>
+                          <p>Prasho Engineers owns advanced equipments and technology to provide surface coating and spray painting services on jobs of numerous materials such as - 
+                          <br><strong>Fibre
+                          <br>Wood
+                          <br>Ferrous 
+                          <br>Non-Ferrous materials </strong></p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- ##### Blog Wrapper Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer_area clearfix">
+      <div class="container">
+          <div class="row">
+              <!-- Single Widget Area -->
+              <div class="col-12 col-md-2">
+                  <div class="single_widget_area d-flex mb-30">
+                      <!-- Logo -->
+                      <div class="footer-logo mr-50">
+                          <img src="img/logo.png" style="height: 80px; align-content: center;" alt="">
+                      </div>
+                  </div>
+                  <div class="row align-items-end">
+              
+                          <!-- Single Widget Area> -->
+                              <div class="single_widget_area">
+                                  <div class="footer_social_area">
+                                      <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                      <a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                      <a href="#" data-toggle="tooltip" data-placement="top" title="WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                  </div>
+                              </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="single_widget_area d-flex mb-30">
+                      <!-- Footer Menu -->
+                      <div class="footer_menu">
+                          <ul>
+                              <div class="col-12 col-md-12" style=" font-family: sans-serif;">
+                              <div class="row" >
+                                <span class="fa fa-map-marker" style="color: white;">&nbsp;:&nbsp;'S' Block, MIDC, Bhosari - 411026, Pune
+                                </span>
+                              </div>
+                              <div class="row"><span class="fa fa-phone" style="margin-top: 5%; color: white;">&nbsp;:&nbsp;+91-9421195607</span></div>
+                              <div class="row"><span class="fa fa-envelope-o" style="margin-top: 5%; color: white;">&nbsp;:&nbsp;teamprasho@gmail.com</span></div>
+                              <div class="row"><span class="fa fa-clock-o" style="margin-top: 5%; color: white;">&nbsp;:&nbsp;8:00AM to 4:40PM</span></div>
+                              </div>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-2">
+              </div>
+              <!-- Single Widget Area -->
+              <div class="col-12 col-md-4">
+                  <div class="single_widget_area mb-30">
+                      <div style=" color: white; font-size: 20px; margin-bottom: 5%;">Quick Links</div>
+                      <ul class="footer_widget_menu">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about_us.html">About Us</a></li>
+                          <li><a href="regular-page-multiple.html">Our Services</a></li>
+                          <li><a href="contact.html">Contact Us</a></li>
+                          <li><a href="contact.html"><span id="Quote" class="Quote" onclick="showQuote()">Get A Quote</span></a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+<div class="row mt-5" style="display: none;">
+              <div class="col-md-12 text-center">
+                  <p style="color: #252525;">
+                      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" style="color: #252525;">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  </p>
+              </div>
+          </div>
+
+      </div>
+  </footer>
+  <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Classy Nav js -->
+    <script src="js/classy-nav.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+
+
+</body>
+
+</html>
